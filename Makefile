@@ -49,6 +49,11 @@ build: clean $(PROFILES) pipeconf
 
 all: $(PROFILES)
 
+fabric: fabric-v1model
+fabric-int: fabric-int-v1model
+fabric-upf: fabric-upf-v1model
+fabric-upf-int: fabric-upf-int-v1model
+
 fabric: fabric-v1model fabric-tna
 fabric-int: fabric-int-v1model fabric-int-tna
 fabric-upf: fabric-upf-v1model fabric-upf-tna
